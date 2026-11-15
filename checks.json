@@ -1,15 +1,15 @@
 {
-  "release": "v1.0.1-ru1",
-  "game_version": "1.0.1",
+  "release": "v1.0.2-ru1",
+  "game_version": "1.0.2",
   "together_version": "5.5.0",
   "together_embedded_locale_keys": 457,
   "translated_rule_names": 68,
   "translated_keybind_aliases": 9,
   "missing_game_fields": 0,
   "placeholder_mismatches": 0,
-  "visual_check": "Game startup checked; multiplayer menu review interrupted; cooperative gameplay not tested.",
-  "sha256": "5d64ab7f67cd17c46ee5c1aa5f795c1907ffdd50d0ec1319f6498dedb656810b",
-  "base_translation_commit": "edf87ba338388d958b6100c37adf7fc236342397",
-  "base_translation_url": "https://github.com/Orsoniks/scavgame-locale/blob/edf87ba338388d958b6100c37adf7fc236342397/release/ru-RU.json",
-  "ai_disclosure": "GPT / Codex generated the local 1.0.1 additions and Together translations; the existing community translation retains its original authors."
+  "visual_check": "Static validation against installed 1.0.2 EN.json; live updated locale and active cooperative gameplay not tested.",
+  "sha256": "664595e5acfeef92394a5cbe34e4f28e2b2282e17d626616e269ac0ad04d72bb",
+  "base_translation_commit": "61ec5cc742290e5b81a929e1028408fd13a34f36",
+  "base_translation_url": "https://github.com/Orsoniks/scavgame-locale/blob/61ec5cc742290e5b81a929e1028408fd13a34f36/release/ru-RU.json",
+  "ai_disclosure": "Current game translation is the unmodified community 1.0.2 text; previous GPT/Codex Together strings and nine keybind labels are appended."
 }
