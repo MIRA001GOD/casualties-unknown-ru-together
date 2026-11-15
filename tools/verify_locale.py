@@ -32,7 +32,7 @@ def tokens(text):
 
 locale_file = root/'ru-RU.json'
 data = json.loads(locale_file.read_text(encoding='utf-8-sig'), object_pairs_hook=unique_object)
-assert data['version'] == '1.0.1'
+assert data['version'] == '1.0.2'
 assert data['name'] == 'Русский'
 expected = json.loads((root/'checks.json').read_text(encoding='utf-8'))
 actual = hashlib.sha256(locale_file.read_bytes()).hexdigest()
@@ -45,7 +45,7 @@ for i in range(3):
     assert data['character'][i]['wwmrwrongway']
 if args.game_en:
     source = json.loads(args.game_en.read_text(encoding='utf-8-sig'), object_pairs_hook=unique_object)
-    assert source['version'] == '1.0.1', 'Expected game EN.json version 1.0.1.'
+    assert source['version'] == '1.0.2', 'Expected game EN.json version 1.0.2.'
     translated = dict(leaves(data))
     for path, value in leaves(source):
         assert path in translated, ('Missing',path)
